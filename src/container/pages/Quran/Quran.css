@@ -1,0 +1,40 @@
+.post {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    width: 1000px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgb(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content p.surah
+{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d4a6e;
+    margin-bottom: 5px;
+}
+
+.content p.surah:hover {
+    cursor: pointer;
+}
+
+.content p.arti {
+    margin: 0px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.content p.ayat {
+    margin: 0px;
+    font-size: 16px;
+    color: #ff0000;
+}
